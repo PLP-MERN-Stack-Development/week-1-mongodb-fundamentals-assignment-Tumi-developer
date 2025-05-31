@@ -44,4 +44,27 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/)
+
+## How to Run `queries.js`
+
+To execute the MongoDB queries in the `queries.js` file, follow these steps:
+
+1. **Install dependencies** (if required):  
+   If your `queries.js` uses the MongoDB Node.js driver, install it by running
+
+2. **Start your MongoDB server**:  
+- For local MongoDB, ensure the MongoDB service is running.
+- For Atlas, make sure your connection string is correct.
+
+3. **Run the script**:  
+In your terminal, execute:
+
+This will connect to your MongoDB database and run the queries defined in the file.
+
+4. **Check output**:  
+The results will be displayed in your terminal.
+
+> **Note:**  
+> - Update the MongoDB connection URI in `queries.js` if needed (for example, to match your local or Atlas setup).
+> - If you encounter connection errors, verify your MongoDB server is running and your connection string is correct.
