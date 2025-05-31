@@ -63,7 +63,9 @@ In your terminal, execute:
 This will connect to your MongoDB database and run the queries defined in the file.
 
 4. **Check output**:  
-The results will be displayed in your terminal.
+The results will be displayed in your terminal.![Screenshot (194)](https://github.com/user-attachments/assets/782f53c7-e039-48f6-ad3d-4bd18db177c4)
+![Screenshot (195)](https://github.com/user-attachments/assets/6e548549-071b-4970-b908-2eac70058590)
+
 
 > **Note:**  
 > - Update the MongoDB connection URI in `queries.js` if needed (for example, to match your local or Atlas setup).
